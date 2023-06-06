@@ -13,7 +13,7 @@ const SwiperSlides = ({ clients }) => {
 
   return (
     <Fragment>
-      <div className="max-w-5xl">
+      <div className="w-full md:max-w-5xl">
         <Swiper
           spaceBetween={50}
           slidesPerView={3}
