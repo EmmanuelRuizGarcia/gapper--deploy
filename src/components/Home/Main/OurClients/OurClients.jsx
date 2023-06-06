@@ -18,46 +18,39 @@ import SwiperSlides from "../../../SwiperSlides/SwiperSlides";
 const OurClients = () => {
   const clients = [
     {
-      name: "GNP",
+      name: "",
       logo: ImageOurClientGNP,
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita exercitationem non magnam cumque eaque voluptate maxime minima.",
+      description: "",
     },
     {
-      name: "Zurich",
+      name: "",
       logo: ImageOurClientZurich,
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita exercitationem non magnam cumque eaque voluptate maxime minima.",
+      description: "",
     },
     {
-      name: "Red Enlace",
+      name: "",
       logo: ImageOurClientRedEnlace,
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita exercitationem non magnam cumque eaque voluptate maxime minima.",
+      description: "",
     },
     {
-      name: "Gapper",
+      name: "",
       logo: ImageOurClientGapper,
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita exercitationem non magnam cumque eaque voluptate maxime minima.",
+      description: "",
     },
     {
-      name: "Mapfre",
+      name: "",
       logo: ImageOurClientMapfre,
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita exercitationem non magnam cumque eaque voluptate maxime minima.",
+      description: "",
     },
     {
-      name: "Qualitas",
+      name: "",
       logo: ImageOurClientQualitas,
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita exercitationem non magnam cumque eaque voluptate maxime minima.",
+      description: "",
     },
     {
-      name: "Ana Seguros",
+      name: "",
       logo: ImageOurClientAnaSeguros,
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita exercitationem non magnam cumque eaque voluptate maxime minima.",
+      description: "",
     },
   ];
   return (

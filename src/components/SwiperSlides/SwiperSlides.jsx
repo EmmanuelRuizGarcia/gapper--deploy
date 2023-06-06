@@ -13,7 +13,7 @@ const SwiperSlides = ({ clients }) => {
 
   return (
     <Fragment>
-      <div className="max-w-5xl">
+      <div className="w-full max-w-5xl">
         <Swiper
           spaceBetween={50}
           slidesPerView={3}
@@ -23,6 +23,29 @@ const SwiperSlides = ({ clients }) => {
           speed={800}
           autoplay={{ delay: 3000 }}
           modules={[Autoplay]}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            400: {
+              slidesPerView: 2,
+            },
+            639: {
+              slidesPerView: 3,
+            },
+            865: {
+              slidesPerView: 3,
+            },
+            1000: {
+              slidesPerView: 3,
+            },
+            1500: {
+              slidesPerView: 3,
+            },
+            1700: {
+              slidesPerView: 3,
+            },
+          }}
         >
           {clients.map((client, i) => (
             <SwiperSlide key={i}>
