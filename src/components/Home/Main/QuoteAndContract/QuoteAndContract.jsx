@@ -206,7 +206,7 @@ const QuoteAndContract = () => {
           </div>
         </div>
         <div className="w-full h-auto font-medium pb-4 flex flex-col items-center justify-center text-center text-gapper-color-Cotiza-Contrata">
-          <h4 className="text-xl md:text-4xl">
+          <h4 className="text-2xl font-semibold md:text-4xl md:pt-8">
             CONOCE NUESTROS PRODUCTOS TRADICIONALES
           </h4>
         </div>
